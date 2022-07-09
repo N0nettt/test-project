@@ -57,7 +57,7 @@ private fetchWorkers() {
     for(const key in res){
       if(res.hasOwnProperty(key))
       {
-        workers.push({...res[key], id: key})
+        workers.push({...res[key]})
       }  
     } 
     return workers;
