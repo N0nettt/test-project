@@ -1,0 +1,14 @@
+.highlight{
+    background: #ff2802; /* green */
+  }
+
+table, tr, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    font-weight: bold;
+    background-color: aquamarine;
+}
+
